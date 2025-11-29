@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infinity Insurance</title>
+    <link rel="icon" type="image/png" href="assets/images/logo.png"/>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"/>
+   
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-white border-bottom sticky-top">
+      <div class="container">
+    <!-- Logo -->
+        <a class="navbar-brand d-flex align-items-center" href="#">   
+          <img src="assets/images/logo.png" alt="" class="logo position-absolute top-0 start 0" width="100px">
+        </a>
+
+    <!-- Right side (small screens): moon + flag + hamburger -->
+        <div class="d-flex align-items-center gap-2 d-lg-none">
+      <!-- Moon + flag for SMALL screens -->
+          <i class="bi bi-moon theme-toggle"></i>
+          <a href="#" class="btn btn-sm p-0">
+            <img src="assets/images/uk_flag.svg" alt="" width="30">
+          </a>
+
+      <!-- Hamburger button -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#mainNav"
+            aria-controls="mainNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+
+    <!-- Offcanvas: mobile = slide from right, lg+ = normal inline -->
+        <div class="offcanvas offcanvas-end offcanvas-lg" tabindex="-1" id="mainNav">
+      <!-- Mobile-only offcanvas header -->
+          <div class="offcanvas-header d-lg-none">
+            <h5 class="offcanvas-title">Menu</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+          </div>
+
+          <div class="offcanvas-body">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-lg-3 pt-3 pt-lg-0">
+              <li class="nav-item"><a class="nav-link me-3 fw-bold text-uppercase text-dark d-flex justify-content-between align-items-center w-100" href="#">Get Quote  <i class="bi bi-caret-down-fill"></i></a></li>
+              <li class="nav-item"><a class="nav-link me-3 fw-bold text-uppercase text-dark d-flex justify-content-between align-items-center w-100" href="#">Claims  <i class="bi bi-caret-down-fill"></i></a></li>
+              <li class="nav-item"><a class="nav-link me-3 fw-bold text-uppercase text-dark d-flex justify-content-between align-items-center w-100" href="#">Newsroom  <i class="bi bi-caret-down-fill"></i></a></li>
+              <li class="nav-item"><a class="nav-link me-3 fw-bold text-uppercase text-dark d-flex justify-content-between align-items-center w-100" href="#">About Us  <i class="bi bi-caret-down-fill"></i></a></li>
+            </ul>
+            <div class="d-none d-lg-flex align-items-center gap-2">
+              <i class="bi bi-moon me-3 theme-toggle"></i>
+              <a href="#" class="btn btn-sm p-0">
+                <img src="assets/images/uk_flag.svg" alt="" width="30">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/images/co_homepage_en.svg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/images/AboutUs_en.svg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/images/co_videos_en.svg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next btn-warning" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="visually-hidden">Next</span>
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+      </div>
+    </section>
+    
+
+    <section class="hero py-5 py-lg-6">
+      <div class="container py-3">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <h1 class="fw-bold text-dark lh-sm display-5 display-md-3 display-lg-4 ">
+                <span class="d-block text-center text-md-start">Why</span>
+                <span class="d-block text-success text-center text-md-start">Infinity Insurance?</span>
+            </h1>
+            <h4>At Infinity, we understand that choosing the best insurance provider for your business or personal needs involves weighing many factors. As such, we have worked hard over the years to earn our clients’ trust by truly becoming an industry leader in the following areas:</h4>
+            <ul class="mt-6 space-y-4">
+                <li class="flex space-x-3 d-flex">
+                    <i class="bi bi-check text-success"></i>
+                    <p>The Best Service</p>
+                </li>
+                <li class="flex space-x-3 d-flex">
+                    <i class="bi bi-check text-success"></i>
+                    <p>Financial Stability</p>
+                </li>
+                <li class="flex space-x-3 d-flex">
+                    <i class="bi bi-check text-success"></i>
+                    <p>Integrity</p>
+                </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-5 offset-lg-1 mt-4 mt-lg-0">
+            <img src="assets/images/reward.jpg" alt="Reward" class="img-fluid w-100">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <!-- SECOND CAROUSEL -->
+        <div id="carouselExamplePeople" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container py-5">
+                <div class="d-flex flex-column flex-lg-row align-items-center gap-4" style="max-width:80%; margin:auto;">
+
+              <!-- IMAGE (large screens only, left side) -->
+                  <div class="order-lg-0 text-center text-lg-start d-none d-lg-block">
+                    <img
+                      src="https://ncaevhwkfwxiofizozdx.supabase.co/storage/v1/object/public/img/testimonial_dina-keo.svg"
+                      class="img-fluid rounded"
+                      alt="John Doe"
+                      style="max-width:260px;"
+                    >
+                  </div>
+
+              <!-- TEXT + mobile layout -->
+                  <div class="order-1 order-lg-1 flex-grow-1">
+                <!-- Description (all screens) -->
+                <h3 class="fw-bold mb-2">We protect what matters most.</h3>
+                <p class="mb-3">
+                  At Infinity Insurance, we are committed to providing reliable coverage
+                  tailored to your needs, with fast support when it matters.
+                </p>
+
+                <!-- Mobile: image + name + position in flex row -->
+                <div class="d-flex align-items-center gap-3 d-lg-none mt-2">
+                  <img
+                    src="assets/images/testimonial_dina-keo.svg"
+                    class="rounded"
+                    alt="John Doe"
+                    style="width:80px; height:80px; object-fit:cover;"
+                  >
+                  <div>
+                    <h5 class="mb-0 fw-semibold">John Doe</h5>
+                    <p class="mb-0 text-muted">Chief Executive Officer</p>
+                  </div>
+                </div>
+
+                <!-- Large: name + position under description -->
+                <div class="d-none d-lg-block mt-3">
+                  <h5 class="mb-0 fw-semibold">John Doe</h5>
+                  <p class="mb-0 text-muted">Chief Executive Officer</p>
+                </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container py-5">
+                <div class="d-flex flex-column flex-lg-row align-items-center gap-4" style="max-width:80%; margin:auto;">
+
+              <!-- IMAGE (large screens only, left side) -->
+                  <div class="order-lg-0 text-center text-lg-start d-none d-lg-block">
+                    <img
+                      src="assets/images/testimonial_dina-keo.svg"
+                      class="img-fluid rounded"
+                      alt="John Doe"
+                      style="max-width:260px;"
+                    >
+                  </div>
+
+              <!-- TEXT + mobile layout -->
+                  <div class="order-1 order-lg-1 flex-grow-1">
+                <!-- Description (all screens) -->
+                <h3 class="fw-bold mb-2">We protect what matters most.</h3>
+                <p class="mb-3">
+                  At Infinity Insurance, we are committed to providing reliable coverage
+                  tailored to your needs, with fast support when it matters.
+                </p>
+
+                <!-- Mobile: image + name + position in flex row -->
+                <div class="d-flex align-items-center gap-3 d-lg-none mt-2">
+                  <img
+                    src="assets/images/testimonial_dina-keo.svg"
+                    class="rounded"
+                    alt="John Doe"
+                    style="width:80px; height:80px; object-fit:cover;"
+                  >
+                  <div>
+                    <h5 class="mb-0 fw-semibold">John Doe</h5>
+                    <p class="mb-0 text-muted">Chief Executive Officer</p>
+                  </div>
+                </div>
+
+                <!-- Large: name + position under description -->
+                <div class="d-none d-lg-block mt-3">
+                  <h5 class="mb-0 fw-semibold">John Doe</h5>
+                  <p class="mb-0 text-muted">Chief Executive Officer</p>
+                </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container py-5">
+                <div class="d-flex flex-column flex-lg-row align-items-center gap-4" style="max-width:80%; margin:auto;">
+
+              <!-- IMAGE (large screens only, left side) -->
+                  <div class="order-lg-0 text-center text-lg-start d-none d-lg-block">
+                    <img
+                      src="assets/images/testimonial_dina-keo.svg"
+                      class="img-fluid rounded"
+                      alt="John Doe"
+                      style="max-width:260px;"
+                    >
+                  </div>
+
+              <!-- TEXT + mobile layout -->
+                  <div class="order-1 order-lg-1 flex-grow-1">
+                <!-- Description (all screens) -->
+                <h3 class="fw-bold mb-2">We protect what matters most.</h3>
+                <p class="mb-3">
+                  At Infinity Insurance, we are committed to providing reliable coverage
+                  tailored to your needs, with fast support when it matters.
+                </p>
+
+                <!-- Mobile: image + name + position in flex row -->
+                <div class="d-flex align-items-center gap-3 d-lg-none mt-2">
+                  <img
+                    src="assets/images/testimonial_dina-keo.svg"
+                    class="rounded"
+                    alt="John Doe"
+                    style="width:80px; height:80px; object-fit:cover;"
+                  >
+                  <div>
+                    <h5 class="mb-0 fw-semibold">John Doe</h5>
+                    <p class="mb-0 text-muted">Chief Executive Officer</p>
+                  </div>
+                </div>
+
+                <!-- Large: name + position under description -->
+                <div class="d-none d-lg-block mt-3">
+                  <h5 class="mb-0 fw-semibold">John Doe</h5>
+                  <p class="mb-0 text-muted">Chief Executive Officer</p>
+                </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Controls -->
+          <button class="carousel-control-prev" type="button"
+                  data-bs-target="#carouselExamplePeople" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button"
+                  data-bs-target="#carouselExamplePeople" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="pt-5 pb-3">
+    <div class="container">
+      <div class="row g-4 mb-3 text-center text-md-start">
+        <div class="col-md-6">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="assets/images/logo.png" alt="" width="100px" class="logo">
+            </a>
+          <div class="d-flex">
+            <i class="bi bi-facebook m-2"></i>
+            <i class="bi bi-linkedin m-2"></i>
+            <i class="bi bi-youtube m-2"></i>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="footer-section-title text-uppercase fw-bold">Support</div>
+          <ul class="list-unstyled my-2 ">
+            <li ><a href="#" class="text-dark text-decoration-none">Claim Forms</a></li>
+            <li><a href="#" class="text-dark text-decoration-none">Panel Clinics</a></li>
+            <li><a href="#" class="text-dark text-decoration-none">Garage Partners</a></li>
+            <li><a href="#" class="text-dark text-decoration-none">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="footer-section-title text-uppercase fw-bold">Company</div>
+          <ul class="list-unstyled my-2">
+            <li><a href="#" class="text-dark text-decoration-none">Vision & Mission</a></li>
+            <li><a href="#" class="text-dark text-decoration-none">CSR</a></li>
+            <li><a href="#" class="text-dark text-decoration-none">Careers</a></li>
+             <li><a href="#" class="text-dark text-decoration-none">Team</a></li>
+          </ul>
+        </div>  
+      </div>
+
+      <div class="footer-bottom pt-3 mt-2 d-flex flex-column flex-md-row justify-content-center text-center">
+         © 2025 Infinity General Insurance Plc. All rights reserved.
+      </div>
+    </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="assets/js/script.js"></script> -->
+
+</body>
+</html>
