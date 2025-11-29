@@ -1,0 +1,47 @@
+.logo {
+        height: 110px;
+        width: auto;
+      }
+      @media (min-width: 1200px) {
+        .logo { height: 170px; }
+      }
+      .nav-link:hover{
+        color: #094dab !important;
+      }
+      .carousel-control-next-icon,
+      .carousel-control-prev-icon {
+          filter: invert(43%) sepia(89%) saturate(2000%) hue-rotate(0deg) brightness(95%) contrast(100%);
+          font-weight: bold;
+      }
+      .bi-moon{
+        cursor: pointer;
+      }
+      body.dark-mode {
+        background-color: #121212;
+        color: #f8f9fa !important;
+      }
+
+      /* Navbar & footer in dark mode */
+      body.dark-mode .navbar {
+        background-color: #000 !important;
+        border-bottom-color: #333 !important;
+      }
+      body.dark-mode .text-dark {
+        color: #f8f9fa !important;
+      }
+      body.dark-mode p{
+        color:#f8f9fa !important;
+      }
+      /* Links in dark mode */
+      body.dark-mode a {
+        color: #f8f9fa;
+      }
+      body.dark-mode .nav-link {
+        color: #f8f9fa !important;
+      }
+      body.dark-mode .nav-link:hover{
+        color: #ffc107 !important; /* yellow-ish hover in dark mode */
+      }
+      body.dark-mode .bi-sun {
+        color: #ffffff !important;
+      }
